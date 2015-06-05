@@ -1,0 +1,1685 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+/* line 10, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 174, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 380, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 391, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 400, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 409, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 420, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, /Users/alex/projects/middleman/mine/source/stylesheets/_normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/***************
+COLOR VARIABLES
+***************/
+/***************
+CONSISTENT SETTINGS
+***************/
+/***************
+TYPE SETTINGS
+***************/
+/***************
+BUTTON DEFAULTS
+***************/
+/* line 6, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+.button, .button-secondary, .button-tertiary, .button__outline {
+  background-color: seagreen;
+  display: inline-block;
+  position: relative;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: normal;
+  padding: .5em 1.5em;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: .5em;
+  -moz-transition: background-color 0.14s ease-in-out;
+  -o-transition: background-color 0.14s ease-in-out;
+  -webkit-transition: background-color 0.14s ease-in-out;
+  transition: background-color 0.14s ease-in-out; }
+  /* line 24, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+  .button:hover, .button-secondary:hover, .button-tertiary:hover, .button__outline:hover, .button:focus, .button-secondary:focus, .button-tertiary:focus, .button__outline:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #21653f; }
+  /* line 31, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+  .button:active, .button-secondary:active, .button-tertiary:active, .button__outline:active {
+    top: 1px; }
+
+/* line 42, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+.button-secondary {
+  background-color: #233E5B; }
+  /* line 46, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+  .button-secondary:hover {
+    background-color: #152536; }
+/* line 51, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+.button-tertiary {
+  background-color: #aaa; }
+  /* line 55, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+  .button-tertiary:hover {
+    background-color: #909090; }
+
+/* line 63, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+.button__outline {
+  background-color: transparent;
+  border: 3px solid seagreen;
+  color: seagreen; }
+  /* line 69, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_buttons.scss */
+  .button__outline:hover {
+    background-color: seagreen;
+    color: #fff; }
+
+/***************
+FORM STYLING
+***************/
+/* line 6, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+label {
+  display: block;
+  margin-bottom: 5px; }
+
+/* line 10, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+input[type=text], input[type=email], input[type=phone], input[type=password], input[type=number], input[type=search], textarea {
+  background: #e6e6e6;
+  padding: 5px;
+  outline: none;
+  border: none;
+  height: 44px;
+  width: 300px;
+  margin-bottom: .5rem; }
+  /* line 19, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  input[type=text]:focus, input[type=email]:focus, input[type=phone]:focus, input[type=password]:focus, input[type=number]:focus, input[type=search]:focus, textarea:focus {
+    border: 1px solid seagreen; }
+  /* line 23, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  input[type=text].full-width, input[type=email].full-width, input[type=phone].full-width, input[type=password].full-width, input[type=number].full-width, input[type=search].full-width, textarea.full-width {
+    width: 100%; }
+
+/* line 27, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+textarea {
+  height: 132px; }
+
+/* line 31, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+form {
+  margin-bottom: 40px; }
+  /* line 35, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  form .field {
+    margin-bottom: 20px; }
+  /* line 40, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  form .note {
+    margin-top: 5px;
+    color: #aaa; }
+  /* line 46, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  form .req {
+    font-style: italic; }
+  /* line 54, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  form .error .reason {
+    margin-top: 5px;
+    color: #FF4136; }
+  /* line 59, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_forms.scss */
+  form .error input[type=text], form .error input[type=email], form .error input[type=phone], form .error input[type=password], form .error input[type=number], form .error input[type=search], form .error textarea {
+    border-color: #FF4136; }
+
+/***************
+TABLE STYLES
+***************/
+/* line 6, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+table {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  margin-bottom: 1.5em; }
+  /* line 11, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+  table caption {
+    margin: 0 0 7px;
+    font-size: 0.75em;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+
+/* line 20, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+tr {
+  border-bottom: 1px solid #d0d0d0; }
+  /* line 23, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+  tr:nth-child(even) {
+    background-color: #f6f6f6; }
+
+/* line 28, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+td {
+  padding: 7px;
+  border-right: 1px solid #d0d0d0; }
+  /* line 32, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+  td:last-child {
+    border-right: 0; }
+
+/* line 37, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+th {
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0; }
+  /* line 42, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_tables.scss */
+  th:last-child {
+    border-right: 0; }
+
+/* line 1, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+pre {
+  border: solid 1px #ddd;
+  background: #fff;
+  padding: 10px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit; }
+
+/* line 13, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.highlight td {
+  padding: 8px 15px; }
+
+/* line 17, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gl {
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  color: #999; }
+
+/* line 23, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.highlight {
+  background-color: #ffffff; }
+
+/* line 24, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.c {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment */
+/* line 25, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.err {
+  color: #a61717;
+  background-color: #e3d2d2; }
+
+/* Error */
+/* line 26, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.k {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword */
+/* line 27, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.o {
+  color: #000000;
+  font-weight: bold; }
+
+/* Operator */
+/* line 28, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.cm {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment.Multiline */
+/* line 29, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.cp {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic; }
+
+/* Comment.Preproc */
+/* line 30, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.c1 {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment.Single */
+/* line 31, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic; }
+
+/* Comment.Special */
+/* line 32, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gd {
+  color: #000000;
+  background-color: #ffdddd; }
+
+/* Generic.Deleted */
+/* line 33, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.ge {
+  color: #000000;
+  font-style: italic; }
+
+/* Generic.Emph */
+/* line 34, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gr {
+  color: #aa0000; }
+
+/* Generic.Error */
+/* line 35, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gh {
+  color: #999999; }
+
+/* Generic.Heading */
+/* line 36, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gi {
+  color: #000000;
+  background-color: #ddffdd; }
+
+/* Generic.Inserted */
+/* line 37, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.go {
+  color: #888888; }
+
+/* Generic.Output */
+/* line 38, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gp {
+  color: #555555; }
+
+/* Generic.Prompt */
+/* line 39, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+/* line 40, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gu {
+  color: #aaaaaa; }
+
+/* Generic.Subheading */
+/* line 41, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.gt {
+  color: #aa0000; }
+
+/* Generic.Traceback */
+/* line 42, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.kc {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Constant */
+/* line 43, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.kd {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Declaration */
+/* line 44, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.kn {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Namespace */
+/* line 45, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.kp {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Pseudo */
+/* line 46, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.kr {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Reserved */
+/* line 47, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.kt {
+  color: #445588;
+  font-weight: bold; }
+
+/* Keyword.Type */
+/* line 48, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.m {
+  color: #009999; }
+
+/* Literal.Number */
+/* line 49, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.s {
+  color: #d01040; }
+
+/* Literal.String */
+/* line 50, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.na {
+  color: #008080; }
+
+/* Name.Attribute */
+/* line 51, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nb {
+  color: #0086B3; }
+
+/* Name.Builtin */
+/* line 52, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nc {
+  color: #445588;
+  font-weight: bold; }
+
+/* Name.Class */
+/* line 53, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.no {
+  color: #008080; }
+
+/* Name.Constant */
+/* line 54, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nd {
+  color: #3c5d5d;
+  font-weight: bold; }
+
+/* Name.Decorator */
+/* line 55, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.ni {
+  color: #800080; }
+
+/* Name.Entity */
+/* line 56, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.ne {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Exception */
+/* line 57, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nf {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Function */
+/* line 58, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nl {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Label */
+/* line 59, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nn {
+  color: #555555; }
+
+/* Name.Namespace */
+/* line 60, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nt {
+  color: #000080; }
+
+/* Name.Tag */
+/* line 61, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.nv {
+  color: #008080; }
+
+/* Name.Variable */
+/* line 62, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.ow {
+  color: #000000;
+  font-weight: bold; }
+
+/* Operator.Word */
+/* line 63, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.w {
+  color: #bbbbbb; }
+
+/* Text.Whitespace */
+/* line 64, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.mf {
+  color: #009999; }
+
+/* Literal.Number.Float */
+/* line 65, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.mh {
+  color: #009999; }
+
+/* Literal.Number.Hex */
+/* line 66, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.mi {
+  color: #009999; }
+
+/* Literal.Number.Integer */
+/* line 67, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.mo {
+  color: #009999; }
+
+/* Literal.Number.Oct */
+/* line 68, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.sb {
+  color: #d01040; }
+
+/* Literal.String.Backtick */
+/* line 69, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.sc {
+  color: #d01040; }
+
+/* Literal.String.Char */
+/* line 70, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.sd {
+  color: #d01040; }
+
+/* Literal.String.Doc */
+/* line 71, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.s2 {
+  color: #d01040; }
+
+/* Literal.String.Double */
+/* line 72, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.se {
+  color: #d01040; }
+
+/* Literal.String.Escape */
+/* line 73, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.sh {
+  color: #d01040; }
+
+/* Literal.String.Heredoc */
+/* line 74, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.si {
+  color: #d01040; }
+
+/* Literal.String.Interpol */
+/* line 75, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.sx {
+  color: #d01040; }
+
+/* Literal.String.Other */
+/* line 76, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.sr {
+  color: #009926; }
+
+/* Literal.String.Regex */
+/* line 77, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.s1 {
+  color: #d01040; }
+
+/* Literal.String.Single */
+/* line 78, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.ss {
+  color: #990073; }
+
+/* Literal.String.Symbol */
+/* line 79, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.bp {
+  color: #999999; }
+
+/* Name.Builtin.Pseudo */
+/* line 80, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.vc {
+  color: #008080; }
+
+/* Name.Variable.Class */
+/* line 81, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.vg {
+  color: #008080; }
+
+/* Name.Variable.Global */
+/* line 82, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.vi {
+  color: #008080; }
+
+/* Name.Variable.Instance */
+/* line 83, /Users/alex/projects/middleman/mine/source/stylesheets/modules/_syntax.scss */
+.il {
+  color: #009999; }
+
+/* Literal.Number.Integer.Long */
+/***************
+A MORE MODERN SCALE
+http://typecast.com/blog/a-more-modern-scale-for-web-typography
+***************/
+/* line 7, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+body {
+  font-size: 1em;
+  /* equivalent to 16px */
+  line-height: 1.45;
+  /* equivalent to 20px */ }
+  /* line 13, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  body .intro {
+    font-size: 1.25em;
+    line-height: 1.7; }
+
+@media (min-width: 43.75em) {
+  /* line 20, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  body {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.375;
+    /* equivalent to 22px */ } }
+/* line 28, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin: .5rem 0 1.5rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+
+/* line 34, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+h1, .h1 {
+  font-size: 2em;
+  line-height: 1.25; }
+
+@media (min-width: 43.75em) {
+  /* line 40, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h1, .h1 {
+    font-size: 2.5em;
+    line-height: 1.125; } }
+@media (min-width: 56.25em) {
+  /* line 47, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h1, .h1 {
+    font-size: 3em;
+    line-height: 1.05; } }
+/* line 53, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+h2, .h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615; }
+
+@media (min-width: 43.75em) {
+  /* line 59, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h2, .h2 {
+    font-size: 2em;
+    line-height: 1.25; } }
+@media (min-width: 56.25em) {
+  /* line 66, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h2, .h2 {
+    font-size: 2.25em;
+    line-height: 1.25; } }
+/* line 72, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+h3, .h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364; }
+
+@media (min-width: 43.75em) {
+  /* line 78, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h3, .h3 {
+    font-size: 1.5em;
+    line-height: 1.25; } }
+@media (min-width: 56.25em) {
+  /* line 85, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h3, .h3 {
+    font-size: 1.75em;
+    line-height: 1.25; } }
+/* line 91, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+h4, .h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111; }
+
+@media (min-width: 43.75em) {
+  /* line 97, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  h4, .h4 {
+    line-height: 1.22222222; } }
+/* line 102, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+blockquote {
+  font-size: 1.25em;
+  line-height: 1.25;
+  padding: 0; }
+
+@media (min-width: 43.75em) {
+  /* line 109, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_typography.scss */
+  blockquote {
+    font-size: 1.5em;
+    line-height: 1.45833333; } }
+/***************
+TRANSITION
+***************/
+/* @include transition(all 0.2s ease-in-out); */
+/***************
+BOX SIZING
+***************/
+/* @include box-sizing(border-box); */
+/***************
+CLEAR AFTER FLOATS
+***************/
+/* line 46, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_mixins.scss */
+.clearfix {
+  zoom: 1; }
+  /* line 35, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_mixins.scss */
+  .clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  /* line 41, /Users/alex/projects/middleman/mine/source/stylesheets/partials/_mixins.scss */
+  .clearfix:after {
+    clear: both; }
+
+/***************
+SUSY GRID CONFIGURATION
+***************/
+/***************
+GLOBAL STYLES
+***************/
+/* line 6, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 13, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+body {
+  font-family: "PT Serif", Georgia, Times, serif;
+  line-height: 1.75;
+  font-size: 112.5%;
+  color: #111;
+  overflow-x: hidden; }
+  /* line 20, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  body p, body ul {
+    margin: 0 0 2rem; }
+
+/* line 26, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+::-moz-selection {
+  background: seagreen;
+  color: white; }
+
+/* line 31, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+::selection {
+  background: seagreen;
+  color: white; }
+
+/* line 37, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+img, video, audio, iframe, object {
+  max-width: 100%; }
+
+/* line 42, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.container {
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px; }
+  /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/***************
+LINK STYLING
+***************/
+/* line 52, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+a {
+  color: seagreen; }
+  /* line 55, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  a:hover {
+    color: #1b5233; }
+
+/***************
+MENU STYLING
+***************/
+/* line 65, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.nav-collapse {
+  z-index: 1; }
+  /* line 68, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .nav-collapse ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none; }
+    /* line 75, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .nav-collapse ul li {
+      width: 100%;
+      display: block;
+      background: seagreen;
+      border-bottom: 2px solid #349e63; }
+      /* line 81, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+      .nav-collapse ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 5px 2rem; }
+
+/* line 91, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  clear: both;
+  width: 100%; }
+
+/* line 102, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+/* line 106, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  float: right;
+  line-height: 2em;
+  margin-top: .5em;
+  background-color: seagreen;
+  border-radius: 4px;
+  padding: 0 .5em;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  right: 2rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+  /* line 126, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .nav-toggle:hover {
+    color: white;
+    background-color: #21653f; }
+
+/***************
+LIST STYLING
+***************/
+/* line 137, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.noList {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0; }
+
+/* line 143, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+dt {
+  font-weight: bold; }
+
+/* line 147, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+dd {
+  margin: 0 0 1.5rem; }
+
+/***************
+PAGE STYLES
+***************/
+/* line 156, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.pageTitle {
+  margin: 2rem auto 1em;
+  text-align: center; }
+
+/* line 161, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.content {
+  padding-top: 1em; }
+
+/***************
+HEADER STYLING
+***************/
+/* line 170, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.header {
+  background-color: seagreen;
+  background-image: url("../img/greenmountain.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding: 0;
+  height: 3em; }
+  /* line 179, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .header .container {
+    padding: 0;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    .header .container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  /* line 184, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .header h1 {
+    margin: 0;
+    float: left;
+    padding-left: 2rem;
+    font-size: 1em;
+    line-height: 3em;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase; }
+    /* line 194, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .header h1 a {
+      color: white;
+      text-decoration: none; }
+
+/***************
+POST STYLING
+***************/
+/* line 208, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post .postTitle {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+/* line 214, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post blockquote {
+  clear: both;
+  margin: 2.5em 0;
+  padding: 0;
+  line-height: 1.8;
+  position: relative; }
+  /* line 221, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .post blockquote:before {
+    content: "";
+    position: absolute;
+    top: -1.25em;
+    background: seagreen;
+    display: block;
+    height: 2px;
+    width: 150px;
+    left: calc(50% - 75px); }
+  /* line 232, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .post blockquote:after {
+    content: "";
+    position: absolute;
+    bottom: -1.25em;
+    background: seagreen;
+    display: block;
+    height: 2px;
+    width: 150px;
+    left: calc(50% - 75px); }
+/* line 244, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post .meta {
+  text-align: center;
+  color: gray;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
+/* line 251, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post figure {
+  margin: 3rem 0; }
+  /* line 254, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .post figure figcaption {
+    text-align: center;
+    font-size: .9em;
+    font-style: italic;
+    color: #5e5e5e; }
+  /* line 261, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .post figure img {
+    margin-bottom: .25em; }
+/* line 266, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post img {
+  margin-bottom: .05rem; }
+/* line 270, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post .highlight {
+  clear: both;
+  margin-bottom: 2rem; }
+/* line 275, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post .dropcap {
+  color: seagreen;
+  margin-right: .45rem; }
+/* line 280, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.post .featuredImage {
+  position: relative;
+  margin-top: 2rem; }
+  /* line 284, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .post .featuredImage img {
+    margin-bottom: 0; }
+
+/***************
+POST NAV STYLING
+***************/
+/* line 295, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.postNav {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  overflow: hidden; }
+  /* line 300, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .postNav .prev, .postNav .next {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+    position: relative;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: .9em;
+    text-transform: uppercase;
+    text-align: center; }
+    /* line 312, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .postNav .prev img, .postNav .next img {
+      z-index: 1;
+      display: block;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 0;
+      width: 100%;
+      .
+			height: auto; }
+    /* line 325, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .postNav .prev span, .postNav .next span {
+      z-index: 10;
+      position: relative;
+      padding: .5rem;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      line-height: 1.4; }
+    /* line 338, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .postNav .prev.image, .postNav .next.image {
+      text-decoration: none;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+      padding: 0 .5rem;
+      position: relative;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+    /* line 348, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .postNav .prev:hover.image, .postNav .next:hover.image {
+      opacity: .8; }
+  /* line 355, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .postNav .prev span {
+    left: 0; }
+  /* line 361, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .postNav .next span {
+    right: 0; }
+
+/***************
+FOOTER STYLING
+***************/
+/* line 372, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.footer {
+  text-align: center;
+  padding: 2rem 0; }
+  /* line 376, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .footer .container {
+    border-top: 4px solid #d9d9d9;
+    padding-top: .5em;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    .footer .container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  /* line 382, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .footer .copy, .footer .footer-links {
+    font-size: .8em; }
+  /* line 386, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .footer .copy {
+    margin-bottom: 1rem; }
+  /* line 391, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .footer-links ul {
+    text-align: center; }
+    /* line 394, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .footer-links ul li {
+      display: inline-block; }
+      /* line 397, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+      .footer-links ul li a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
+        /* line 403, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+        .footer-links ul li a svg {
+          display: block;
+          width: 100%;
+          height: 100%; }
+          /* line 408, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+          .footer-links ul li a svg .outer-shape {
+            fill: seagreen; }
+          /* line 412, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+          .footer-links ul li a svg .inner-shape {
+            fill: white; }
+      /* line 422, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+      .footer-links ul li:hover a svg .outer-shape {
+        fill: #21653f; }
+
+/***************
+PAGINATION STYLING
+***************/
+/* line 439, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.pagination .next {
+  float: left; }
+/* line 443, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.pagination .previous {
+  float: right; }
+
+/***************
+POST LIST STYLING
+***************/
+/* line 454, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+.posts li {
+  margin-bottom: 4rem;
+  position: relative; }
+  /* line 458, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .posts li:before {
+    content: "";
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    background: #e6e6e6;
+    height: 2px;
+    width: 60px; }
+  /* line 468, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .posts li a {
+    text-decoration: none; }
+    /* line 471, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+    .posts li a:hover {
+      text-decoration: underline; }
+  /* line 476, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .posts li .date {
+    color: gray;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: .8em; }
+  /* line 483, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_mobileup.scss */
+  .posts li h3 {
+    margin: 0 0 .5em; }
+
+@media only screen and (min-width: 800px) {
+  /***************
+  GLOBAL STYLES
+  ***************/
+  /* line 6, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .content {
+    padding-top: 0;
+    position: relative;
+    z-index: 1; }
+    /* line 11, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .content:after {
+      z-index: -1;
+      background: white;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 5em;
+      position: absolute;
+      top: -2em;
+      left: 0;
+      -webkit-transform: skewY(-2deg);
+      -ms-transform: skewY(-2deg);
+      transform: skewY(-2deg);
+      -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+      transform-origin: bottom left; }
+
+  /* line 30, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0; }
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    .container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+
+  /***************
+  HOMEPAGE STYLING
+  ***************/
+  /* line 41, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  #home .posts, #home .pageTitle, #home .pagination {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+    margin: 0 auto 1.5em; }
+  /* line 47, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  #home .pageTitle {
+    margin: 2rem auto 1em; }
+
+  /***************
+  HEADER STYLING
+  ***************/
+  /* line 57, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .header {
+    height: 15em;
+    position: relative;
+    padding-bottom: 2em; }
+    /* line 62, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .header .container {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+      .header .container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+    /* line 71, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .header h1 {
+      font-size: 3em;
+      line-height: 1;
+      letter-spacing: -3px;
+      padding-left: 0; }
+    /* line 78, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .header nav {
+      float: left;
+      clear: left; }
+      /* line 82, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+      .header nav ul {
+        margin: 0; }
+        /* line 84, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+        .header nav ul li {
+          display: inline;
+          line-height: 3em;
+          background: none;
+          padding: 0 5px;
+          border: none; }
+          /* line 91, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+          .header nav ul li a {
+            color: white;
+            font-size: .9em;
+            text-decoration: none;
+            padding: 0 .25em; }
+            /* line 97, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+            .header nav ul li a:hover {
+              color: #cccccc; }
+          /* line 102, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+          .header nav ul li.current {
+            padding-bottom: .25em;
+            border-bottom: 4px solid rgba(255, 255, 255, 0.4); }
+
+  /***************
+  MENU STYLING
+  ***************/
+  /* line 118, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .js .nav-collapse {
+    position: relative;
+    max-height: none; }
+    /* line 122, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .js .nav-collapse.closed {
+      max-height: none; }
+    /* line 126, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .js .nav-collapse ul li a {
+      display: inline-block; }
+
+  /* line 132, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .nav-toggle {
+    display: none; }
+
+  /***************
+  POST STYLING
+  ***************/
+  /* line 142, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol, .post dl, .post .pageTitle {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+    margin: 0 auto 2rem; }
+  /* line 148, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .post h1, .post .h1, .post h2, .post .h2, .post h3, .post .h3, .post h4, .post .h4, .post h5, .post .h5, .post h6, .post .h6 {
+    margin: 1rem auto; }
+  /* line 152, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .post .pageTitle {
+    margin: 2rem auto 1em; }
+  /* line 156, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .post .featuredImage {
+    position: relative;
+    margin-top: 2rem; }
+    /* line 160, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+    .post .featuredImage:before {
+      background: white;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4em;
+      position: absolute;
+      top: -2em;
+      left: 0;
+      -webkit-transform: skewY(-2deg);
+      -ms-transform: skewY(-2deg);
+      transform: skewY(-2deg);
+      -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+      transform-origin: bottom left; }
+
+  /***************
+  POST NAV STYLING
+  ***************/
+  /* line 186, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .postNav .prev, .postNav .next {
+    width: 50%; }
+  /* line 190, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .postNav .prev {
+    float: left;
+    text-align: left; }
+  /* line 195, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .postNav .next {
+    text-align: right;
+    float: right; }
+
+  /***************
+  FOOTER STYLES
+  ***************/
+  /* line 207, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .footer-links {
+    float: right; }
+  /* line 211, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .footer .copy {
+    float: left; }
+  /* line 215, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .footer .container {
+    padding: 1rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    .footer .container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+
+  /***************
+  CONTACT PAGE STYLING
+  ***************/
+  /* line 226, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .contactContent {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%; }
+
+  /* line 231, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  #contact form {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0; }
+
+  /***************
+  ABOUT PAGE STYLING
+  ***************/
+  /* line 240, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .aboutLeftcontent {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%; }
+
+  /* line 244, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .aboutContent {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
+
+  /* line 248, /Users/alex/projects/middleman/mine/source/stylesheets/breakpoints/_800up.scss */
+  .aboutRightcontent {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0; } }

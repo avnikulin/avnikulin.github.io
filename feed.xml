@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alexander Nikulin</title>
+  <subtitle>Software development, business, and finance</subtitle>
+  <id>http://localhost:9999/</id>
+  <link href="http://localhost:9999/"/>
+  <link href="http://localhost:9999/feed.xml" rel="self"/>
+  <updated>2015-03-23T17:56:00-07:00</updated>
+  <author>
+    <name>Alex Nikulin</name>
+  </author>
+  <entry>
+    <title>Creating a Middleman Blog</title>
+    <link rel="alternate" href="http://localhost:9999/ruby/creating-a-middleman-blog/"/>
+    <id>http://localhost:9999/ruby/creating-a-middleman-blog/</id>
+    <published>2015-03-23T17:56:00-07:00</published>
+    <updated>2015-05-08T16:29:19-07:00</updated>
+    <author>
+      <name>Alex Nikulin</name>
+    </author>
+    <content type="html">&lt;p&gt;If you've ever wanted to publish a blog on the web, you've had to decide which blogging software to use, with the most popular choice being WordPress. In my opinion, if you don't need a lot of dynamic content, it's better to use a static blog generator.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://middlemanapp.com/"&gt;Middleman&lt;/a&gt; offers the most potential for a professional, feature rich, and highly customizable static blog. Middleman is a &lt;a href="https://www.ruby-lang.org/"&gt;Ruby&lt;/a&gt; Gem that relies on &lt;a href="http://www.sinatrarb.com/"&gt;Sinatra&lt;/a&gt;. Unlike traditional CMSs like WordPress, Blogger, and Drupal, it doesn't need to dynamically serve the content because it renders web pages into static HTML files which are then uploaded to a server.&lt;/p&gt;
+
+&lt;p&gt;Note: Middleman requires &lt;a href="https://www.ruby-lang.org/"&gt;Ruby&lt;/a&gt;. If you don't have it yet, install it now with a ruby version control manager like rvm or rbenv. After you've installed Ruby we can now install Middleman!&lt;/p&gt;
+
+&lt;p&gt;First let's install the Middleman gem:&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;gem install middleman
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next we're going to run the 'middleman init' command to generate a basic site. Run the following command where 'my_new_project' will be your root project folder.&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;middleman init my_new_project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That's it for now, but sometime soon this article will be finished.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Example Article 2</title>
+    <link rel="alternate" href="http://localhost:9999/awesome-10/"/>
+    <id>http://localhost:9999/awesome-10/</id>
+    <published>2015-03-09T06:39:00-07:00</published>
+    <updated>2015-05-08T16:27:04-07:00</updated>
+    <author>
+      <name>Alex Nikulin</name>
+    </author>
+    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus erat, vehicula non vehicula in, gravida sit amet lacus. Quisque porttitor gravida condimentum. Suspendisse ultrices luctus tempor. Nulla facilisi. Donec eros ipsum, viverra in mi lacinia, vulputate dapibus tortor. Maecenas efficitur metus ut diam cursus egestas. Pellentesque fermentum, ante et aliquam mollis, nunc lectus semper neque, ac fringilla eros mi id metus. Nullam nec justo rutrum, tristique justo sed, maximus mi.&lt;/p&gt;
+
+&lt;p&gt;Nam pulvinar libero vitae sem pharetra, eget venenatis ligula consequat. Curabitur ut purus scelerisque lorem lacinia scelerisque. Mauris auctor enim tempor felis elementum, at porta justo commodo. Maecenas rhoncus nunc at libero lacinia venenatis. Curabitur auctor enim non eros porttitor, eget molestie magna luctus. Etiam eget vulputate massa. Etiam facilisis mauris sit amet orci iaculis vehicula. Curabitur a tellus hendrerit, venenatis arcu in, eleifend lacus. Quisque nec interdum felis, quis gravida arcu. Sed mi tortor, laoreet sit amet tempor a, porta eget felis. Suspendisse enim nisi, eleifend ac elit eget, rhoncus posuere metus.&lt;/p&gt;
+
+&lt;p&gt;Maecenas tristique lectus lacus, eu eleifend erat tempus eget. Suspendisse in neque commodo, vehicula turpis in, auctor risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ut auctor libero. Morbi pretium magna nec ante blandit, a venenatis dui sodales. Etiam eu diam a ligula viverra lobortis. Maecenas in efficitur neque. Donec ut dui vitae risus condimentum lobortis nec viverra ante. Sed sollicitudin quis neque vel tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas convallis efficitur auctor. Praesent et varius est, non porttitor dolor. Duis aliquam cursus tellus, quis tincidunt felis vulputate at.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="http://localhost:9999/example-article/"/>
+    <id>http://localhost:9999/example-article/</id>
+    <published>2012-01-01T00:00:00-08:00</published>
+    <updated>2015-05-08T16:27:20-07:00</updated>
+    <author>
+      <name>Alex Nikulin</name>
+    </author>
+    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a elit id nibh eleifend ullamcorper at ac ex. Nunc faucibus ut lectus sit amet mollis. Fusce mollis bibendum maximus. Duis ut lobortis odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices enim nisi, vitae scelerisque magna facilisis ut. In at risus vel turpis posuere egestas nec quis lectus. Curabitur eget dignissim quam, sit amet dignissim magna.&lt;/p&gt;
+
+&lt;p&gt;Nullam eu metus elementum, molestie dolor a, aliquam orci. Pellentesque ut venenatis massa. Donec a suscipit dui, non lobortis nisl. Suspendisse tincidunt massa vitae laoreet elementum. Nunc consectetur nunc et dolor molestie porta. Duis eu dignissim quam. Etiam gravida tortor purus, at tincidunt eros pharetra sit amet. Nam et finibus diam. Suspendisse potenti. Duis a neque sit amet elit mollis cursus eget non lacus. Nam vulputate dolor non lectus consectetur porta. Duis id facilisis dui, at pharetra leo. Morbi molestie odio vel dui tincidunt, a vulputate mi vestibulum. Morbi rutrum vulputate massa at maximus. Vestibulum ac neque quam. Integer eget dignissim tortor.&lt;/p&gt;
+
+&lt;p&gt;Integer vel semper nulla. Nunc in convallis eros, eget porta orci. Ut nec neque lacinia metus fermentum pulvinar. Nullam ornare enim eu tellus pharetra vehicula. Sed commodo pulvinar risus vitae consectetur. Curabitur ultricies risus nec nunc eleifend convallis. Curabitur lacinia tellus vel tellus ultricies, et convallis neque feugiat. In magna nisl, efficitur sit amet risus semper, vehicula elementum nisl.&lt;/p&gt;
+
+&lt;p&gt;Sed risus sapien, convallis sit amet finibus ac, commodo vitae urna. Curabitur efficitur posuere enim, sed tempus dolor sodales in. Quisque sed tempus dui. Ut ut diam nec dolor varius pellentesque. Praesent sed libero sit amet dui sodales sollicitudin. Donec non semper lacus. Curabitur lobortis tristique massa non ornare. Nulla tempus, nunc et ornare sollicitudin, mi neque tincidunt sapien, sit amet suscipit nisl nisi sed purus. Duis consectetur diam feugiat elit porta, ultrices ullamcorper eros accumsan. In tincidunt vehicula nulla, et sodales sapien condimentum vel. Nullam maximus elit ut turpis finibus, sit amet sollicitudin sem tincidunt. Phasellus commodo lacus ut luctus euismod. Vivamus a odio maximus, commodo massa a, placerat enim. Integer faucibus tincidunt ligula et dictum. Nulla a augue vitae justo tristique suscipit.&lt;/p&gt;
+
+&lt;p&gt;Curabitur finibus metus mauris, ut luctus ex congue ut. Proin et enim sit amet elit finibus varius eget eget metus. Quisque tortor risus, consequat eget facilisis eget, commodo eu odio. Suspendisse consequat congue leo. Pellentesque quis tellus eget tellus consequat rutrum. Fusce non metus hendrerit, lobortis mi at, mollis ipsum. Duis quam magna, ultrices in egestas sit amet, congue eget lectus. Vestibulum fermentum finibus vehicula. Nam malesuada rhoncus ex vel porta. Nam tincidunt ante nec tincidunt mattis. Vestibulum vestibulum condimentum urna ut scelerisque. Nunc a odio euismod, vulputate nulla ac, iaculis diam. Ut eget sem sed eros ultricies dignissim sed vel mauris. Suspendisse porttitor maximus quam, sit amet congue leo condimentum at.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
