@@ -1063,7 +1063,7 @@ img, video, audio, iframe, object {
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px; }
-  /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+  /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
   .container:after {
     content: " ";
     display: block;
@@ -1193,7 +1193,7 @@ HEADER STYLING
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
     .header .container:after {
       content: " ";
       display: block;
@@ -1363,7 +1363,7 @@ FOOTER STYLING
     max-width: 90%;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
     .footer .container:after {
       content: " ";
       display: block;
@@ -1477,7 +1477,7 @@ POST LIST STYLING
     margin-left: auto;
     margin-right: auto;
     padding: 0; }
-    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
     .container:after {
       content: " ";
       display: block;
@@ -1516,7 +1516,7 @@ POST LIST STYLING
       max-width: 800px;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
       .header .container:after {
         content: " ";
         display: block;
@@ -1641,7 +1641,7 @@ POST LIST STYLING
     max-width: 800px;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /Users/alex/projects/middleman/mine/.gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
     .footer .container:after {
       content: " ";
       display: block;
